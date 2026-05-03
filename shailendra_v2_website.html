@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Gopawapar Land Lease | Prime Logistics & Warehousing Land — Deoria, Eastern UP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --ink: #0a0d12;
+  --ink2: #141920;
+  --paper: #f7f4ee;
+  --warm: #ede8de;
+  --gold: #c9952d;
+  --gold2: #e8b84a;
+  --gold-pale: #f5e9cc;
+  --rust: #9e3d22;
+  --white: #ffffff;
+  --muted: #72787f;
+  --border: rgba(10,13,18,0.09);
+  --border-gold: rgba(201,149,45,0.3);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:'Manrope',sans-serif;background:var(--paper);color:var(--ink);overflow-x:hidden;}
+img{display:block;max-width:100%;height:auto;}
+a{text-decoration:none;color:inherit;}
+
+/* ─── NAV ─── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1rem 3.5rem;
+  background:rgba(247,244,238,0.93);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+  transition:box-shadow .3s;
+}
+nav.scrolled{box-shadow:0 4px 32px rgba(0,0,0,0.07);}
+.logo{display:flex;align-items:center;gap:.6rem;}
+.logo-dot{width:10px;height:10px;background:var(--gold);border-radius:50%;}
+.logo-text{font-family:'Bebas Neue',sans-serif;font-size:1.35rem;letter-spacing:.1em;color:var(--ink);}
+.logo-text span{color:var(--gold);}
+.nav-links{display:flex;gap:2.2rem;list-style:none;}
+.nav-links a{font-size:.78rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink);opacity:.6;transition:opacity .2s;}
+.nav-links a:hover{opacity:1;}
+.nav-cta{
+  background:var(--ink);color:var(--paper);
+  padding:.6rem 1.5rem;border-radius:2px;
+  font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  cursor:pointer;border:none;transition:background .2s;
+}
+.nav-cta:hover{background:var(--gold);}
+
+/* ─── HERO ─── */
+.hero{
+  min-height:100vh;
+  display:grid;grid-template-columns:55% 45%;
+  padding-top:72px;
+  position:relative;overflow:hidden;
+}
+.hero-left{
+  display:flex;flex-direction:column;justify-content:center;
+  padding:5rem 3.5rem 5rem 3.5rem;
+  position:relative;z-index:2;
+}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.7rem;
+  font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:1.6rem;
+}
+.eyebrow::before{content:'';width:2rem;height:2px;background:var(--gold);}
+h1{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(3.5rem,7vw,6.2rem);
+  line-height:.95;letter-spacing:.02em;color:var(--ink);
+  margin-bottom:1.8rem;
+}
+h1 .gold{color:var(--gold);}
+h1 .block{display:block;}
+.hero-desc{
+  font-size:1rem;line-height:1.75;color:var(--muted);
+  max-width:460px;margin-bottom:2.8rem;font-weight:400;
+}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-primary{
+  background:var(--ink);color:var(--paper);
+  padding:.85rem 2rem;border-radius:2px;
+  font-size:.78rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  cursor:pointer;border:none;transition:background .2s,transform .15s;display:inline-block;
+}
+.btn-primary:hover{background:var(--gold);transform:translateY(-2px);}
+.btn-outline{
+  border:2px solid var(--ink);color:var(--ink);
+  padding:.85rem 2rem;border-radius:2px;
+  font-size:.78rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  cursor:pointer;background:transparent;transition:all .2s;display:inline-block;
+}
+.btn-outline:hover{background:var(--ink);color:var(--paper);}
+.hero-right{
+  background:var(--ink2);
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:flex-end;
+}
+.hero-right::before{
+  content:'';position:absolute;inset:0;
+  background:
+    linear-gradient(135deg,transparent 60%,rgba(201,149,45,.06) 100%),
+    repeating-linear-gradient(45deg,transparent,transparent 38px,rgba(201,149,45,.03) 38px,rgba(201,149,45,.03) 39px);
+}
+.hero-img-stack{
+  position:absolute;inset:0;
+  display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;
+  gap:3px;opacity:.55;
+}
+.hero-img-stack img{width:100%;height:100%;object-fit:cover;}
+.hero-img-stack img:first-child{grid-column:1/-1;}
+.hero-card{
+  position:relative;z-index:2;
+  margin:2rem;
+  background:rgba(10,13,18,.85);
+  border:1px solid var(--border-gold);
+  border-radius:4px;padding:1.8rem;
+  backdrop-filter:blur(8px);
+}
+.stat-row{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;}
+.stat-box{}
+.stat-n{font-family:'Bebas Neue',sans-serif;font-size:2.8rem;color:var(--gold2);line-height:1;letter-spacing:.04em;}
+.stat-l{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(247,244,238,.4);margin-top:.2rem;}
+.card-div{width:100%;height:1px;background:var(--border-gold);margin:1.4rem 0;}
+.card-loc{
+  display:flex;align-items:flex-start;gap:.7rem;
+  font-size:.78rem;color:rgba(247,244,238,.55);line-height:1.5;
+}
+.loc-pin{color:var(--gold);font-size:1rem;flex-shrink:0;margin-top:.05rem;}
+
+/* ─── TICKER ─── */
+.ticker{background:var(--gold);padding:.7rem 0;overflow:hidden;}
+.ticker-track{display:flex;width:max-content;animation:tick 28s linear infinite;}
+.tick-item{
+  white-space:nowrap;padding:0 2.5rem;
+  font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink);display:flex;align-items:center;gap:1.5rem;
+}
+.tick-item::after{content:'✦';opacity:.5;}
+@keyframes tick{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ─── STAT BAR ─── */
+.statbar{
+  background:var(--ink);
+  display:grid;grid-template-columns:repeat(5,1fr);
+  border-top:3px solid var(--gold);
+}
+.sbi{
+  padding:2.5rem 2rem;
+  border-right:1px solid rgba(255,255,255,.06);
+  transition:background .2s;
+}
+.sbi:hover{background:rgba(201,149,45,.07);}
+.sbi:last-child{border-right:none;}
+.sbi-n{font-family:'Bebas Neue',sans-serif;font-size:2.8rem;color:var(--gold2);letter-spacing:.04em;line-height:1;}
+.sbi-l{font-size:.68rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:rgba(247,244,238,.4);margin-top:.4rem;line-height:1.4;}
+
+/* ─── SECTION COMMONS ─── */
+.sec{padding:6.5rem 3.5rem;}
+.sec-label{
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-size:.68rem;font-weight:800;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:.9rem;
+}
+.sec-label::before{content:'';width:1.8rem;height:2px;background:var(--gold);}
+.sec-h{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(2.2rem,4vw,3.5rem);
+  line-height:1;letter-spacing:.03em;color:var(--ink);
+  margin-bottom:1rem;
+}
+.sec-p{font-size:.95rem;line-height:1.8;color:var(--muted);max-width:540px;}
+
+/* ─── GALLERY ─── */
+.gallery-sec{background:var(--warm);}
+.gallery-intro{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:end;margin-bottom:3.5rem;}
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:220px 180px;
+  gap:4px;
+}
+.gimg{overflow:hidden;cursor:pointer;position:relative;}
+.gimg img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease,filter .3s;}
+.gimg:hover img{transform:scale(1.05);filter:brightness(.85);}
+.gimg:nth-child(1){grid-column:span 2;grid-row:span 1;}
+.gimg:nth-child(5){grid-column:span 2;}
+.gimg-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(10,13,18,.7) 0%,transparent 60%);
+  opacity:0;transition:opacity .3s;
+  display:flex;align-items:flex-end;padding:1rem;
+}
+.gimg:hover .gimg-overlay{opacity:1;}
+.gimg-label{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--paper);}
+.view-all-btn{
+  display:block;margin-top:1.5rem;text-align:center;
+  background:transparent;border:1.5px solid var(--border);
+  padding:.85rem;border-radius:2px;
+  font-size:.75rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);cursor:pointer;transition:all .2s;
+}
+.view-all-btn:hover{border-color:var(--gold);color:var(--gold);}
+
+/* ─── LOCATION ─── */
+.location-sec{
+  display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;
+  background:var(--paper);
+}
+.conn-list{margin-top:2.5rem;}
+.conn-item{
+  display:grid;grid-template-columns:2.8rem 1fr auto;
+  align-items:center;gap:1rem;
+  padding:1.1rem 0;border-bottom:1px solid var(--border);
+}
+.conn-item:first-child{border-top:1px solid var(--border);}
+.conn-ic{
+  width:2.8rem;height:2.8rem;background:var(--gold-pale);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:1rem;flex-shrink:0;
+}
+.conn-name{font-weight:700;font-size:.88rem;}
+.conn-sub{font-size:.72rem;color:var(--muted);margin-top:.1rem;}
+.conn-km{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;color:var(--gold);letter-spacing:.05em;}
+.highway-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem;}
+.chip{
+  background:var(--gold-pale);color:var(--ink);
+  padding:.3rem .85rem;border-radius:2px;
+  font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  border:1px solid var(--border-gold);
+}
+.map-wrap{
+  background:var(--ink);border-radius:4px;overflow:hidden;
+  aspect-ratio:1/1;position:relative;
+}
+.map-wrap iframe{width:100%;height:100%;border:none;}
+.map-note{margin-top:.8rem;font-size:.72rem;color:var(--muted);text-align:center;}
+
+/* ─── LAND PARCELS ─── */
+.parcels-sec{background:var(--white);}
+.parcels-header{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;margin-bottom:3.5rem;}
+.parcels-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1.5px;background:var(--border);border:1px solid var(--border);
+}
+.pc{
+  background:var(--white);padding:2rem;position:relative;overflow:hidden;
+  transition:background .25s;
+}
+.pc:hover{background:var(--gold-pale);}
+.pc::after{
+  content:attr(data-n);
+  position:absolute;top:-1rem;right:.5rem;
+  font-family:'Bebas Neue',sans-serif;font-size:6rem;
+  color:var(--ink);opacity:.04;line-height:1;pointer-events:none;
+}
+.pc-badge{
+  display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  padding:.25rem .65rem;border-radius:1px;margin-bottom:.9rem;
+}
+.badge-primary{background:var(--gold);color:var(--ink);}
+.badge-extra{background:var(--rust);color:#fff;}
+.pc-name{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:.04em;color:var(--ink);margin-bottom:.15rem;}
+.pc-gata{font-size:.72rem;color:var(--muted);margin-bottom:1.1rem;}
+.pc-sqft{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;color:var(--ink);line-height:1;}
+.pc-sqft-l{font-size:.68rem;color:var(--muted);letter-spacing:.04em;margin-bottom:1.4rem;}
+.pc-feats{display:flex;flex-direction:column;gap:.4rem;}
+.pc-feat{font-size:.78rem;color:var(--muted);display:flex;align-items:flex-start;gap:.5rem;}
+.pc-feat::before{content:'→';color:var(--gold);font-weight:800;flex-shrink:0;}
+.pc-total{
+  grid-column:1/-1;
+  background:var(--ink);padding:2rem 2.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.pt-label{
+  font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(247,244,238,.45);
+}
+.pt-sub{font-size:.68rem;color:rgba(247,244,238,.25);margin-top:.3rem;}
+.pt-num{font-family:'Bebas Neue',sans-serif;font-size:3rem;color:var(--gold2);letter-spacing:.04em;}
+.pt-sub2{font-size:.68rem;color:rgba(232,184,74,.4);text-align:right;margin-top:.2rem;}
+
+/* ─── TERMS ─── */
+.terms-sec{
+  display:grid;grid-template-columns:1fr 1.1fr;gap:5rem;align-items:start;
+  background:var(--warm);
+}
+.term-list{margin-top:2rem;}
+.term-item{
+  display:flex;gap:1.2rem;padding:1.4rem 0;
+  border-bottom:1px solid var(--border);
+}
+.term-item:first-child{border-top:1px solid var(--border);}
+.term-ic{
+  width:2.6rem;height:2.6rem;background:var(--gold-pale);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:.95rem;flex-shrink:0;margin-top:.05rem;
+}
+.term-t{font-weight:700;font-size:.9rem;margin-bottom:.3rem;}
+.term-d{font-size:.8rem;color:var(--muted);line-height:1.65;}
+.dark-box{
+  background:var(--ink);border-radius:4px;padding:2.8rem;
+  position:relative;overflow:hidden;
+}
+.dark-box::before{
+  content:'';position:absolute;
+  top:-3rem;right:-3rem;width:12rem;height:12rem;
+  background:var(--gold);opacity:.07;border-radius:50%;
+}
+.dark-box h3{
+  font-family:'Bebas Neue',sans-serif;font-size:2rem;
+  color:var(--paper);letter-spacing:.04em;line-height:1.1;margin-bottom:1.8rem;
+}
+.dark-box h3 span{color:var(--gold2);}
+.reasons{display:flex;flex-direction:column;gap:.9rem;}
+.reason{
+  display:flex;gap:.9rem;align-items:flex-start;
+  background:rgba(247,244,238,.04);
+  border-left:2px solid var(--gold);
+  padding:1rem 1.1rem;border-radius:0 2px 2px 0;
+}
+.reason-n{
+  font-family:'Bebas Neue',sans-serif;font-size:.85rem;
+  color:var(--gold);letter-spacing:.08em;flex-shrink:0;margin-top:.05rem;width:1.5rem;
+}
+.reason-t{font-size:.82rem;color:rgba(247,244,238,.7);line-height:1.6;}
+
+/* ─── HIGHWAYS SECTION ─── */
+.highways-sec{background:var(--ink);padding:6rem 3.5rem;}
+.hw-header{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:end;margin-bottom:3.5rem;}
+.hw-header .sec-h{color:var(--paper);}
+.hw-header .sec-label{color:var(--gold);}
+.hw-header .sec-p{color:rgba(247,244,238,.5);}
+.hw-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:1.5px;
+  background:rgba(247,244,238,.05);border:1px solid rgba(247,244,238,.05);
+}
+.hw-card{
+  background:var(--ink);padding:2rem 1.5rem;
+  border-right:1px solid rgba(247,244,238,.05);
+  transition:background .25s;
+}
+.hw-card:last-child{border-right:none;}
+.hw-card:hover{background:rgba(201,149,45,.08);}
+.hw-letter{
+  font-family:'Bebas Neue',sans-serif;font-size:3rem;
+  color:var(--gold);letter-spacing:.06em;line-height:1;margin-bottom:.8rem;
+}
+.hw-name{font-size:.82rem;font-weight:700;color:var(--paper);margin-bottom:.5rem;}
+.hw-desc{font-size:.72rem;color:rgba(247,244,238,.4);line-height:1.6;}
+.hw-img-strip{
+  display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-top:3rem;
+}
+.hw-strip-img{height:120px;overflow:hidden;}
+.hw-strip-img img{width:100%;height:100%;object-fit:cover;opacity:.5;transition:opacity .3s;}
+.hw-strip-img:hover img{opacity:1;}
+
+/* ─── WHY ─── */
+.why-sec{background:var(--paper);}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+.why-card{
+  background:var(--warm);padding:2.2rem;border-radius:2px;
+  border:1px solid var(--border);transition:border-color .2s,background .2s;
+}
+.why-card:hover{border-color:var(--gold);background:var(--gold-pale);}
+.why-icon{font-size:1.7rem;margin-bottom:1.1rem;}
+.why-t{font-weight:700;font-size:.92rem;margin-bottom:.5rem;}
+.why-d{font-size:.8rem;color:var(--muted);line-height:1.65;}
+
+/* ─── CONTACT ─── */
+.contact-sec{
+  background:var(--ink);
+  display:grid;grid-template-columns:1fr 1.1fr;gap:5rem;align-items:start;
+  padding:6.5rem 3.5rem;
+}
+.contact-left h2{
+  font-family:'Bebas Neue',sans-serif;font-size:3rem;
+  color:var(--paper);letter-spacing:.04em;line-height:1.05;margin-bottom:1rem;
+}
+.contact-left h2 span{color:var(--gold2);}
+.contact-left p{font-size:.9rem;color:rgba(247,244,238,.5);line-height:1.75;margin-bottom:2.5rem;}
+.cinfo{display:flex;flex-direction:column;gap:1.1rem;}
+.ci-row{display:flex;align-items:center;gap:.9rem;font-size:.88rem;color:rgba(247,244,238,.7);}
+.ci-ic{
+  width:2.4rem;height:2.4rem;flex-shrink:0;
+  background:rgba(201,149,45,.12);border:1px solid rgba(201,149,45,.25);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;
+}
+.ci-row a{color:inherit;transition:color .2s;}
+.ci-row a:hover{color:var(--gold2);}
+/* form */
+.cform{display:flex;flex-direction:column;gap:1.1rem;}
+.fg{display:flex;flex-direction:column;gap:.4rem;}
+.fg label{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(247,244,238,.4);}
+.fg input,.fg textarea,.fg select{
+  padding:.8rem 1rem;
+  background:rgba(247,244,238,.05);
+  border:1px solid rgba(247,244,238,.1);
+  border-radius:2px;color:var(--paper);
+  font-family:'Manrope',sans-serif;font-size:.88rem;outline:none;
+  transition:border-color .2s;
+}
+.fg input::placeholder,.fg textarea::placeholder{color:rgba(247,244,238,.2);}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--gold);}
+.fg select option{background:var(--ink2);color:var(--paper);}
+.fg textarea{resize:vertical;min-height:110px;}
+.fg-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.submit-btn{
+  background:var(--gold);color:var(--ink);
+  padding:.95rem;border:none;border-radius:2px;cursor:pointer;
+  font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:.1em;
+  transition:background .2s,transform .15s;
+}
+.submit-btn:hover{background:var(--gold2);transform:translateY(-1px);}
+.form-note{font-size:.68rem;color:rgba(247,244,238,.25);text-align:center;margin-top:.5rem;}
+/* success state */
+.submit-btn.success{background:#2d6a4f;color:#fff;}
+
+/* ─── LIGHTBOX ─── */
+.lb{
+  display:none;position:fixed;inset:0;z-index:1000;
+  background:rgba(0,0,0,.92);
+  align-items:center;justify-content:center;
+  flex-direction:column;
+}
+.lb.open{display:flex;}
+.lb-img{max-height:80vh;max-width:90vw;object-fit:contain;border-radius:2px;}
+.lb-close{
+  position:absolute;top:1.5rem;right:2rem;
+  font-size:2.5rem;color:#fff;cursor:pointer;opacity:.6;transition:opacity .2s;line-height:1;
+}
+.lb-close:hover{opacity:1;}
+.lb-nav{
+  display:flex;gap:1rem;margin-top:1.2rem;
+}
+.lb-btn{
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);
+  color:#fff;padding:.5rem 1.2rem;border-radius:2px;cursor:pointer;font-size:.8rem;
+  transition:background .2s;
+}
+.lb-btn:hover{background:rgba(201,149,45,.5);}
+
+/* ─── MODAL ─── */
+.modal-overlay{
+  display:none;position:fixed;inset:0;z-index:500;
+  background:rgba(0,0,0,.7);
+  align-items:center;justify-content:center;
+  backdrop-filter:blur(4px);
+}
+.modal-overlay.open{display:flex;}
+.modal{
+  background:var(--paper);max-width:560px;width:90%;
+  border-radius:4px;overflow:hidden;
+  animation:modalIn .3s ease;
+}
+@keyframes modalIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.modal-top{
+  background:var(--ink);padding:2rem 2rem 1.5rem;
+  display:flex;align-items:flex-start;justify-content:space-between;
+}
+.modal-top h3{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:var(--paper);letter-spacing:.06em;}
+.modal-top p{font-size:.78rem;color:rgba(247,244,238,.5);margin-top:.2rem;}
+.modal-close-btn{background:none;border:none;color:rgba(247,244,238,.4);font-size:1.6rem;cursor:pointer;line-height:1;}
+.modal-close-btn:hover{color:var(--paper);}
+.modal-body{padding:2rem;}
+.mfg{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem;}
+.mfg label{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.mfg input,.mfg textarea,.mfg select{
+  padding:.75rem 1rem;
+  background:var(--white);border:1.5px solid var(--border);
+  border-radius:2px;color:var(--ink);
+  font-family:'Manrope',sans-serif;font-size:.88rem;outline:none;
+  transition:border-color .2s;
+}
+.mfg input:focus,.mfg textarea:focus,.mfg select:focus{border-color:var(--gold);}
+.mfg select option{background:var(--white);}
+.mfg textarea{resize:vertical;min-height:90px;}
+.mfg-row{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;}
+.modal-submit{
+  width:100%;background:var(--ink);color:var(--paper);
+  padding:.95rem;border:none;border-radius:2px;cursor:pointer;
+  font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:.1em;
+  transition:background .2s;margin-top:.5rem;
+}
+.modal-submit:hover{background:var(--gold);color:var(--ink);}
+.modal-submit.success{background:#2d6a4f!important;color:#fff!important;}
+
+/* ─── FOOTER ─── */
+footer{
+  background:#07090d;padding:2rem 3.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+  border-top:1px solid rgba(255,255,255,.04);
+}
+.foot-logo{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;color:var(--paper);letter-spacing:.1em;}
+.foot-logo span{color:var(--gold);}
+.foot-links{display:flex;gap:2rem;}
+.foot-links a{font-size:.72rem;color:rgba(247,244,238,.3);letter-spacing:.06em;text-transform:uppercase;}
+.foot-links a:hover{color:var(--gold);}
+.foot-copy{font-size:.7rem;color:rgba(247,244,238,.2);}
+
+/* ─── SCROLL FX ─── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease;}
+.reveal.visible{opacity:1;transform:none;}
+.d1{transition-delay:.08s;} .d2{transition-delay:.16s;} .d3{transition-delay:.24s;} .d4{transition-delay:.32s;}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:980px){
+  nav{padding:1rem 1.5rem;}
+  .nav-links{display:none;}
+  .hero{grid-template-columns:1fr;min-height:auto;}
+  .hero-left{padding:4.5rem 1.5rem 2.5rem;}
+  .hero-right{min-height:300px;}
+  .statbar{grid-template-columns:1fr 1fr;}
+  .sbi{border-right:none;border-bottom:1px solid rgba(255,255,255,.06);}
+  .sec{padding:4rem 1.5rem;}
+  .location-sec,.terms-sec,.contact-sec{grid-template-columns:1fr;gap:3rem;padding:4rem 1.5rem;}
+  .gallery-intro,.parcels-header,.hw-header{grid-template-columns:1fr;gap:1.5rem;}
+  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto;}
+  .gimg:nth-child(1){grid-column:1/-1;}
+  .gimg:nth-child(5){grid-column:auto;}
+  .parcels-grid{grid-template-columns:1fr;}
+  .hw-grid{grid-template-columns:1fr 1fr;}
+  .hw-strip-img{grid-template-columns:repeat(4,1fr);}
+  .why-grid{grid-template-columns:1fr 1fr;}
+  .fg-row,.mfg-row{grid-template-columns:1fr;}
+  footer{flex-direction:column;gap:1.2rem;text-align:center;padding:1.5rem;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="logo">
+    <div class="logo-dot"></div>
+    <div class="logo-text">Deoria <span>Land</span> Lease</div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#parcels">Land Parcels</a></li>
+    <li><a href="#terms">Lease Terms</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="openModal()">Enquire Now</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="padding:0;padding-top:72px;">
+  <div class="hero-left">
+    <div class="eyebrow">Prime Industrial Land · Deoria, Eastern UP</div>
+    <h1>
+      <span class="block">Warehouse</span>
+      <span class="block gold">Ready</span>
+      <span class="block">Land</span>
+    </h1>
+    <p class="hero-desc">
+      9+ acres of prime land in Gopawapar Village, Deoria District — positioned at the crossroads of Purvanchal Expressway, Ram Janki Marg NH, and Eastern India's fastest-growing logistics corridor. Available for 40–50 year long-term lease with build-to-suit option.
+    </p>
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request Site Visit</button>
+      <button class="btn-outline" onclick="document.getElementById('parcels').scrollIntoView({behavior:'smooth'})">View Land Details</button>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img-stack">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0201_orig.jpeg" alt="Land view" loading="lazy"/>
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0203_orig.jpeg" alt="Land view 2" loading="lazy"/>
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0199_orig.jpeg" alt="Land view 3" loading="lazy"/>
+    </div>
+    <div class="hero-card">
+      <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-n">5.5L</div>
+          <div class="stat-l">Sq. Ft. Available</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-n">40–50</div>
+          <div class="stat-l">Year Lease</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-n">82km</div>
+          <div class="stat-l">From Gorakhpur</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-n">3km</div>
+          <div class="stat-l">To Railway Station</div>
+        </div>
+      </div>
+      <div class="card-div"></div>
+      <div class="card-loc">
+        <span class="loc-pin">📍</span>
+        Gopawapar Village (Revenue: GOPAWAPAR), Post: Garawana,<br/>Deoria District, UP — Pin 274604
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="tick-item">Purvanchal Expressway Connected</span>
+    <span class="tick-item">Gorakhpur-Link Expressway</span>
+    <span class="tick-item">Build-to-Suit Option</span>
+    <span class="tick-item">40–50 Year Lease</span>
+    <span class="tick-item">200–250m Road Frontage</span>
+    <span class="tick-item">Abundant Labour Pool</span>
+    <span class="tick-item">Ram Janki Marg NH (4-Lane)</span>
+    <span class="tick-item">3km to Railway Station</span>
+    <span class="tick-item">Zero Traffic · Heavy Vehicles Welcome</span>
+    <span class="tick-item">Purvanchal Expressway Connected</span>
+    <span class="tick-item">Gorakhpur-Link Expressway</span>
+    <span class="tick-item">Build-to-Suit Option</span>
+    <span class="tick-item">40–50 Year Lease</span>
+    <span class="tick-item">200–250m Road Frontage</span>
+    <span class="tick-item">Abundant Labour Pool</span>
+    <span class="tick-item">Ram Janki Marg NH (4-Lane)</span>
+    <span class="tick-item">3km to Railway Station</span>
+    <span class="tick-item">Zero Traffic · Heavy Vehicles Welcome</span>
+  </div>
+</div>
+
+<!-- STAT BAR -->
+<div class="statbar">
+  <div class="sbi reveal">
+    <div class="sbi-n">9+</div>
+    <div class="sbi-l">Acres of Prime Land</div>
+  </div>
+  <div class="sbi reveal d1">
+    <div class="sbi-n">4</div>
+    <div class="sbi-l">Land Parcels Available</div>
+  </div>
+  <div class="sbi reveal d2">
+    <div class="sbi-n">200m</div>
+    <div class="sbi-l">NH Road Frontage</div>
+  </div>
+  <div class="sbi reveal d3">
+    <div class="sbi-n">2</div>
+    <div class="sbi-l">Power Substations Nearby</div>
+  </div>
+  <div class="sbi reveal d4">
+    <div class="sbi-n">5</div>
+    <div class="sbi-l">Expressways Connected</div>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<section class="gallery-sec sec" id="gallery">
+  <div class="gallery-intro">
+    <div class="reveal">
+      <div class="sec-label">Land Gallery</div>
+      <h2 class="sec-h">A Glimpse Into<br/>The Opportunity</h2>
+    </div>
+    <p class="sec-p reveal d1">
+      Flat, well-drained, and open land with broad road access — ready for rapid construction. These images show the actual site at Gopawapar, Deoria. The square plot layout with 200–250m road frontage is ideal for high-throughput warehouse operations.
+    </p>
+  </div>
+  <div class="gallery-grid" id="galleryGrid">
+    <div class="gimg reveal" onclick="openLb(0)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0201_orig.jpeg" alt="Land Site Overview"/>
+      <div class="gimg-overlay"><span class="gimg-label">Site Overview</span></div>
+    </div>
+    <div class="gimg reveal d1" onclick="openLb(1)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0204_orig.jpeg" alt="Road Frontage"/>
+      <div class="gimg-overlay"><span class="gimg-label">Road Frontage</span></div>
+    </div>
+    <div class="gimg reveal d2" onclick="openLb(2)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0203_orig.jpeg" alt="Plot Boundary"/>
+      <div class="gimg-overlay"><span class="gimg-label">Plot Boundary</span></div>
+    </div>
+    <div class="gimg reveal d3" onclick="openLb(3)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0202_orig.jpeg" alt="Land Expanse"/>
+      <div class="gimg-overlay"><span class="gimg-label">Land Expanse</span></div>
+    </div>
+    <div class="gimg reveal" onclick="openLb(4)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0200_orig.jpeg" alt="Access Road"/>
+      <div class="gimg-overlay"><span class="gimg-label">Access Road</span></div>
+    </div>
+    <div class="gimg reveal d1" onclick="openLb(5)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0199_orig.jpeg" alt="Surrounding Area"/>
+      <div class="gimg-overlay"><span class="gimg-label">Surrounding Area</span></div>
+    </div>
+    <div class="gimg reveal d2" onclick="openLb(6)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0198_orig.jpeg" alt="Village Connectivity"/>
+      <div class="gimg-overlay"><span class="gimg-label">Village Connectivity</span></div>
+    </div>
+    <div class="gimg reveal d3" onclick="openLb(7)">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0197_orig.jpeg" alt="Ground Level View"/>
+      <div class="gimg-overlay"><span class="gimg-label">Ground Level View</span></div>
+    </div>
+  </div>
+  <button class="view-all-btn" onclick="openLb(0)">View All Photos in Full Screen →</button>
+</section>
+
+<!-- LOCATION -->
+<section class="location-sec sec" id="location">
+  <div class="reveal">
+    <div class="sec-label">Strategic Location</div>
+    <h2 class="sec-h">At the Heart of<br/>Eastern UP's<br/>Logistics Corridor</h2>
+    <p class="sec-p" style="margin-bottom:0">
+      Gopawapar sits on the Pradhan Mantri Rojgar Yojna Road between Karuana Chauraha and Paiana village Chauraha — on the Ram Janki Marg four-lane NH going to Bihar. Note: In digital mapping records the village appears as "Gopalapar" — the correct Revenue Record name is <strong>Gopawapar</strong>.
+    </p>
+    <div class="conn-list">
+      <div class="conn-item">
+        <div class="conn-ic">🚂</div>
+        <div>
+          <div class="conn-name">Satraon Railway Station</div>
+          <div class="conn-sub">Primary freight & passenger rail access</div>
+        </div>
+        <div class="conn-km">3 KM</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-ic">🚉</div>
+        <div>
+          <div class="conn-name">Barhaj Railway Station</div>
+          <div class="conn-sub">Additional rail connectivity on Varanasi route</div>
+        </div>
+        <div class="conn-km">10 KM</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-ic">🗺️</div>
+        <div>
+          <div class="conn-name">Karuana Chauraha</div>
+          <div class="conn-sub">Key NH junction on Ram Janki Marg</div>
+        </div>
+        <div class="conn-km">9 KM</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-ic">🏛️</div>
+        <div>
+          <div class="conn-name">Barhaj Tehsil HQ</div>
+          <div class="conn-sub">Administrative & legal processing centre</div>
+        </div>
+        <div class="conn-km">10 KM</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-ic">🏙️</div>
+        <div>
+          <div class="conn-name">Deoria Town HQ</div>
+          <div class="conn-sub">District headquarters</div>
+        </div>
+        <div class="conn-km">30 KM</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-ic">🌆</div>
+        <div>
+          <div class="conn-name">Gorakhpur City</div>
+          <div class="conn-sub">Commissionerate HQ via NH through Deoria</div>
+        </div>
+        <div class="conn-km">82 KM</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-ic">🚛</div>
+        <div>
+          <div class="conn-name">Ram Janki Marg (NH)</div>
+          <div class="conn-sub">Four-lane highway direct to Bihar border</div>
+        </div>
+        <div class="conn-km">6 KM</div>
+      </div>
+    </div>
+    <div class="highway-chips">
+      <span class="chip">Purvanchal Expressway</span>
+      <span class="chip">Gorakhpur-Link Expressway</span>
+      <span class="chip">Gorakhpur–Patna Expressway</span>
+      <span class="chip">Siliguri Expressway</span>
+      <span class="chip">GKP–Shamli Greenfield (700km)</span>
+    </div>
+  </div>
+  <div class="reveal d2">
+    <div class="map-wrap">
+      <iframe
+        src="https://maps.google.com/maps?q=Gopalapar,Deoria,Uttar+Pradesh&t=&z=12&ie=UTF8&iwloc=&output=embed"
+        allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <p class="map-note">📍 Gopawapar (Revenue Name) · Post: Garawana · Deoria, UP 274604<br/>Note: appears as "Gopalapar" on Google Maps</p>
+    <div style="margin-top:1.5rem;padding:1.2rem;background:var(--gold-pale);border:1px solid var(--border-gold);border-radius:2px;">
+      <p style="font-size:.78rem;line-height:1.65;color:var(--ink);">
+        ⚡ <strong>Power Infrastructure:</strong> Gopawapar lies centrally between two major electric substations —
+        <strong>KASILI-Satraon</strong> and <strong>Barhaj Electric Sub-station</strong> — ensuring uninterrupted power for 24×7 operations.
+      </p>
+    </div>
+    <div style="margin-top:1rem;padding:1.2rem;background:var(--warm);border:1px solid var(--border);border-radius:2px;">
+      <p style="font-size:.78rem;line-height:1.65;color:var(--ink);">
+        👥 <strong>Labour Advantage:</strong> Deoria district is densely populated. An abundant supply of affordable local workforce is available for warehouse, fulfillment, and logistics operations.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- LAND PARCELS -->
+<section class="parcels-sec sec" id="parcels">
+  <div class="parcels-header">
+    <div class="reveal">
+      <div class="sec-label">Land Parcels</div>
+      <h2 class="sec-h">Available Plots<br/>At a Glance</h2>
+    </div>
+    <p class="sec-p reveal d1" style="margin-top:.4rem">
+      The primary site (GATA No. 104, Gopawapar) is 12 Acres 18 Biswa in the family — 7 acres offered as the legal share of Smt. Seema Mall. The plot is perfectly square with 200–250m road frontage and zero encumbrances. Additional adjacent parcels allow phased expansion without relocation. Additional land for staff quarters or further expansion can be arranged on the same terms.
+    </p>
+  </div>
+  <div class="parcels-grid">
+    <div class="pc reveal" data-n="01">
+      <span class="pc-badge badge-primary">Primary · Offered First</span>
+      <div class="pc-name">Gopawapar — Site A</div>
+      <div class="pc-gata">GATA No. 104 · Gopawapar Village, Post Garawana</div>
+      <div class="pc-sqft">3,00,000</div>
+      <div class="pc-sqft-l">sq. ft. · approx. 7 Acres · Legal share of Smt. Seema Mall</div>
+      <div class="pc-feats">
+        <div class="pc-feat">200–250 metre NH road frontage</div>
+        <div class="pc-feat">Perfectly square plot, no encumbrances</div>
+        <div class="pc-feat">Lies entirely on main road front outside village</div>
+        <div class="pc-feat">Truck, trailer & heavy vehicle access year-round</div>
+        <div class="pc-feat">Govt. Circle Rate value: ₹5 Crore+ (agricultural)</div>
+      </div>
+    </div>
+    <div class="pc reveal d1" data-n="02">
+      <span class="pc-badge badge-primary">Primary · Adjacent</span>
+      <div class="pc-name">Gopawapar — Site B</div>
+      <div class="pc-gata">Adjacent to GATA 104 · Gopawapar Village</div>
+      <div class="pc-sqft">1,00,000</div>
+      <div class="pc-sqft-l">sq. ft. · approx. 2.3 Acres · Same ownership</div>
+      <div class="pc-feats">
+        <div class="pc-feat">Contiguous to Site A — seamless combined operation</div>
+        <div class="pc-feat">Ideal for truck parking or staff quarters</div>
+        <div class="pc-feat">Combined with Site A: 4 lakh sq. ft. total</div>
+        <div class="pc-feat">Available on deal confirmation</div>
+      </div>
+    </div>
+    <div class="pc reveal d2" data-n="03">
+      <span class="pc-badge badge-extra">Additional · Village Paliya</span>
+      <div class="pc-name">Paliya — Gata No. 67</div>
+      <div class="pc-gata">GATA No. 67 · Village Paliya</div>
+      <div class="pc-sqft">1,00,000</div>
+      <div class="pc-sqft-l">sq. ft. · approx. 2.3 Acres</div>
+      <div class="pc-feats">
+        <div class="pc-feat">Close proximity to primary Gopawapar site</div>
+        <div class="pc-feat">Same connectivity & locational advantages</div>
+        <div class="pc-feat">Suitable for overflow storage or phase-2 expansion</div>
+        <div class="pc-feat">Can be leased independently or bundled</div>
+      </div>
+    </div>
+    <div class="pc reveal d3" data-n="04">
+      <span class="pc-badge badge-extra">Additional · Village Paliya</span>
+      <div class="pc-name">Paliya — Gata No. 270</div>
+      <div class="pc-gata">GATA No. 270 · Village Paliya</div>
+      <div class="pc-sqft">1,50,000</div>
+      <div class="pc-sqft-l">sq. ft. · approx. 3.4 Acres</div>
+      <div class="pc-feats">
+        <div class="pc-feat">Near-contiguous with Gata 67 Paliya parcel</div>
+        <div class="pc-feat">High scalability for large operations</div>
+        <div class="pc-feat">Smooth goods movement access from key roads</div>
+        <div class="pc-feat">Available on request, same lease terms</div>
+      </div>
+    </div>
+    <div class="pc reveal" data-n="+" style="grid-column:span 2;background:var(--warm);">
+      <span class="pc-badge badge-primary">Further Expansion</span>
+      <div class="pc-name">Additional Land on Request</div>
+      <div class="pc-gata">Adjacent plots near GATA 104 · Gopawapar & surroundings</div>
+      <div class="pc-sqft">On Request</div>
+      <div class="pc-sqft-l">As much land as required by the company can be arranged</div>
+      <div class="pc-feats">
+        <div class="pc-feat">Two more adjacent plots near GATA 104 can be arranged</div>
+        <div class="pc-feat">Extra land for staff quarters available on same terms</div>
+        <div class="pc-feat">All additional land in same high-potential zone</div>
+      </div>
+    </div>
+    <div class="pc-total">
+      <div>
+        <div class="pt-label">Total Combined Land Available</div>
+        <div class="pt-sub">Primary + All Additional Parcels · Expandable Further on Request</div>
+      </div>
+      <div style="text-align:right;">
+        <div class="pt-num">5,50,000 SQ. FT.</div>
+        <div class="pt-sub2">≈ 12.6 Acres Combined · Largest Single Landholding in the Zone</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEASE TERMS -->
+<section class="terms-sec sec" id="terms">
+  <div class="reveal">
+    <div class="sec-label">Lease Structure</div>
+    <h2 class="sec-h">Flexible Terms Built<br/>for Large Operations</h2>
+    <p class="sec-p">Every term is designed to reduce your cost of entry and give maximum operational stability for large capex investments.</p>
+    <div class="term-list">
+      <div class="term-item">
+        <div class="term-ic">📅</div>
+        <div>
+          <div class="term-t">Long-Term Lease: 40–50 Years</div>
+          <div class="term-d">Guaranteed long-horizon stability. Plan decades ahead with full operational certainty. Rent starts on the higher side, with appreciation of ~5% every 3 years as mutually agreed.</div>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-ic">💰</div>
+        <div>
+          <div class="term-t">Negotiated Rent — Lump Sum or Monthly</div>
+          <div class="term-d">Rent structure is fully negotiable — either a lump sum amount or on a monthly basis. Built-in appreciation clause (~5% every 3–5 years) ensures market alignment without sudden jumps.</div>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-ic">🏗️</div>
+        <div>
+          <div class="term-t">Build-to-Suit: You Build, We Recover Your Cost</div>
+          <div class="term-d">Companies construct facilities to their own design and specification. Construction costs are recovered through easy long-term instalments — drastically reducing upfront capital burden.</div>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-ic">📄</div>
+        <div>
+          <div class="term-t">Land Use Conversion on Deal Confirmation</div>
+          <div class="term-d">Currently agricultural land in Revenue Records. Upon deal confirmation, conversion to commercial land will be completed through the established UP Government legal process. Full legal compliance.</div>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-ic">📐</div>
+        <div>
+          <div class="term-t">Phased Scalable Expansion</div>
+          <div class="term-d">Start with 3 lakh sq. ft. and expand to 5.5 lakh sq. ft.+ across adjacent parcels. All on the same lease terms, same location cluster — no relocation needed as you grow.</div>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-ic">👨‍👩‍👦</div>
+        <div>
+          <div class="term-t">Direct Owner Deal — No Middlemen</div>
+          <div class="term-d">Land owned by Smt. Seema Mall & Kartik Mall, legally gifted by Shailendra Mall. Direct negotiation with the family — no broker layers, no commission conflicts, completely transparent title.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reveal d2">
+    <div class="dark-box">
+      <h3>Why Eastern UP Is<br/><span>The Next Big Bet</span></h3>
+      <div class="reasons">
+        <div class="reason">
+          <div class="reason-n">01</div>
+          <div class="reason-t">Purvanchal Expressway has cut Lucknow-to-Purvanchal time to 3.5 hrs via Gorakhpur Link. Same-day delivery into tier-2 Eastern UP markets is now viable.</div>
+        </div>
+        <div class="reason">
+          <div class="reason-n">02</div>
+          <div class="reason-t">Bihar border proximity means one hub in Deoria can serve both UP and Bihar — two of India's largest, most underserved consumer markets — simultaneously.</div>
+        </div>
+        <div class="reason">
+          <div class="reason-n">03</div>
+          <div class="reason-t">The Gorakhpur–Patna Expressway (348km) links Eastern UP to Bihar, and from Patna onward to Orissa. The Siliguri Expressway extends reach to the North-East.</div>
+        </div>
+        <div class="reason">
+          <div class="reason-n">04</div>
+          <div class="reason-t">Land cost in Eastern UP is a fraction of Lucknow or NCR, while connectivity is rapidly catching up. The entry window before prices move is now.</div>
+        </div>
+        <div class="reason">
+          <div class="reason-n">05</div>
+          <div class="reason-t">Zero traffic jams. Broad village roads handle large combine harvesters freely in harvest season — trucks and trailers run unobstructed 365 days a year.</div>
+        </div>
+        <div class="reason">
+          <div class="reason-n">06</div>
+          <div class="reason-t">Our family is validated by Times of India Group survey and UP Government records as among the largest landholders in UP — a credibility most landowners cannot offer.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHWAYS SECTION -->
+<section class="highways-sec" id="highways">
+  <div class="hw-header">
+    <div>
+      <div class="sec-label" style="color:var(--gold);">All Major Highways</div>
+      <h2 class="sec-h" style="color:var(--paper);">Five Expressways.<br/>One Location.</h2>
+    </div>
+    <p class="sec-p">From Gorakhpur, the NH network fans out in every direction — connecting this land to Delhi, Punjab, Haryana, Bihar, Orissa, West Bengal, and the North-East. No other location in Eastern UP offers this reach.</p>
+  </div>
+  <div class="hw-grid reveal">
+    <div class="hw-card">
+      <div class="hw-letter">A</div>
+      <div class="hw-name">GKP → Shamli Greenfield Expressway</div>
+      <div class="hw-desc">700km connecting Eastern & Western UP, Haryana, Delhi, Punjab through 22 districts.</div>
+    </div>
+    <div class="hw-card">
+      <div class="hw-letter">B</div>
+      <div class="hw-name">Gorakhpur-Link Expressway</div>
+      <div class="hw-desc">Connects GKP with Purvanchal Expressway at Azamgarh. Reduces GKP–Lucknow to 3.5 hours.</div>
+    </div>
+    <div class="hw-card">
+      <div class="hw-letter">C</div>
+      <div class="hw-name">Purvanchal Expressway</div>
+      <div class="hw-desc">348km, 6-lane. Connects Lucknow with Shamli in Western UP via Azamgarh.</div>
+    </div>
+    <div class="hw-card">
+      <div class="hw-letter">D</div>
+      <div class="hw-name">GKP–Siliguri Expressway</div>
+      <div class="hw-desc">Direct drive Gorakhpur to Siliguri, West Bengal — smooth transit through Assam & North-East.</div>
+    </div>
+    <div class="hw-card">
+      <div class="hw-letter">E</div>
+      <div class="hw-name">GKP–Patna Expressway</div>
+      <div class="hw-desc">348km, ~7 hours. Links Eastern UP and Bihar, continuing to Orissa — critical eastern corridor.</div>
+    </div>
+  </div>
+  <div class="hw-img-strip reveal d1">
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-2_orig.png" alt="Highway A"/>
+    </div>
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-3_orig.png" alt="Highway B"/>
+    </div>
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-4_orig.png" alt="Highway C"/>
+    </div>
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-5_orig.png" alt="Highway D"/>
+    </div>
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-6_orig.png" alt="Highway E"/>
+    </div>
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-7_orig.png" alt="Highway F"/>
+    </div>
+    <div class="hw-strip-img">
+      <img src="https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/live-stream-announcement-instagram-post-8_orig.png" alt="Highway G"/>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-sec sec" id="why">
+  <div class="sec-label reveal">Why Partner With Us</div>
+  <h2 class="sec-h reveal">What Makes This<br/>Different</h2>
+  <div class="why-grid">
+    <div class="why-card reveal">
+      <div class="why-icon">🤝</div>
+      <div class="why-t">Direct Family Ownership — No Brokers</div>
+      <div class="why-d">Land legally gifted to Smt. Seema Mall & Kartik Mall by Shailendra Mall. Clear title, documented ownership, zero encumbrances. You negotiate directly with the owners — no commission layers.</div>
+    </div>
+    <div class="why-card reveal d1">
+      <div class="why-icon">📏</div>
+      <div class="why-t">200–250m Road Frontage on NH</div>
+      <div class="why-d">Exceptional road frontage on a four-lane NH allows simultaneous multi-gate truck access — essential for high-throughput warehousing. Rarely available in rural UP at this scale.</div>
+    </div>
+    <div class="why-card reveal d2">
+      <div class="why-icon">⚡</div>
+      <div class="why-t">Dual Power Substation Coverage</div>
+      <div class="why-d">Gopawapar sits centrally between KASILI-Satraon and Barhaj electric substations. Dual proximity significantly reduces outage risk and supports 24×7 uninterrupted operations.</div>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">🚛</div>
+      <div class="why-t">Zero Traffic — Year-Round Heavy Access</div>
+      <div class="why-d">Broad village roads with no congestion. Even large combine harvesters move freely in season — trucks and trailers operate without any restriction, any day of the year.</div>
+    </div>
+    <div class="why-card reveal d1">
+      <div class="why-icon">📈</div>
+      <div class="why-t">Scalable From 3 Lakh to 5.5 Lakh Sq. Ft.</div>
+      <div class="why-d">Start operations, then expand into adjacent parcels within the same locality cluster — without moving your base. All on the same lease terms. True phased scaling.</div>
+    </div>
+    <div class="why-card reveal d2">
+      <div class="why-icon">🏆</div>
+      <div class="why-t">Validated Large Landholder Status</div>
+      <div class="why-d">Times of India Group survey and UP Government records confirm the Mall family among 0.47% of families with large landholdings in UP — a credibility marker few individual landowners can provide.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-sec" id="contact">
+  <div class="reveal">
+    <div class="sec-label" style="color:var(--gold)">Get In Touch</div>
+    <h2>Let's Start the<br/><span>Conversation</span></h2>
+    <p>Whether you're a logistics company, e-commerce platform, FMCG brand, chemical storage operator, or MNC expanding into Eastern India — we are open to all serious discussions. No pressure, just a conversation.</p>
+    <div class="cinfo">
+      <div class="ci-row">
+        <div class="ci-ic">📞</div>
+        <a href="tel:+916307156540">+91 63071 56540 — Shailendra Mall</a>
+      </div>
+      <div class="ci-row">
+        <div class="ci-ic">✉️</div>
+        <a href="mailto:shailendramall@example.com">shailendramall@example.com</a>
+      </div>
+      <div class="ci-row">
+        <div class="ci-ic">📍</div>
+        <span>Village Gopawapar, Post Garawana, Deoria District, UP — 274604<br/>(Currently residing in Lucknow)</span>
+      </div>
+      <div class="ci-row">
+        <div class="ci-ic">🕐</div>
+        <span>Available Mon–Sat, 10 AM to 6 PM IST</span>
+      </div>
+    </div>
+    <div style="margin-top:2rem;padding:1.2rem 1.4rem;border:1px solid var(--border-gold);border-radius:2px;background:rgba(201,149,45,.07);">
+      <p style="font-size:.8rem;color:rgba(247,244,238,.65);line-height:1.65;">
+        🗺️ <strong style="color:var(--gold2);">Also accessible via:</strong> Dwarka Sector 9 Petrol Pump, New Delhi — Indian Oil dealer for 22 years. Meetings can be arranged in Delhi or Lucknow for your convenience.
+      </p>
+    </div>
+  </div>
+  <div class="cform reveal d2">
+    <div class="fg-row">
+      <div class="fg">
+        <label>Your Name *</label>
+        <input type="text" id="cf-name" placeholder="Full name"/>
+      </div>
+      <div class="fg">
+        <label>Company Name *</label>
+        <input type="text" id="cf-company" placeholder="Your company"/>
+      </div>
+    </div>
+    <div class="fg-row">
+      <div class="fg">
+        <label>Phone Number *</label>
+        <input type="tel" id="cf-phone" placeholder="+91 XXXXX XXXXX"/>
+      </div>
+      <div class="fg">
+        <label>Email Address</label>
+        <input type="email" id="cf-email" placeholder="you@company.com"/>
+      </div>
+    </div>
+    <div class="fg">
+      <label>Requirement Type</label>
+      <select id="cf-type">
+        <option value="">Select requirement</option>
+        <option>Warehousing / Godown</option>
+        <option>Fulfillment / Distribution Hub</option>
+        <option>Cold Storage Facility</option>
+        <option>Chemical / Seed / Fertilizer Storage</option>
+        <option>FMCG / Bulk Storage</option>
+        <option>E-Commerce Fulfillment Centre</option>
+        <option>Long-Term Industrial Lease (Other)</option>
+        <option>Site Visit Request Only</option>
+      </select>
+    </div>
+    <div class="fg">
+      <label>Land Requirement (sq. ft.)</label>
+      <input type="text" id="cf-size" placeholder="e.g. 1,00,000 sq. ft. or state your need"/>
+    </div>
+    <div class="fg">
+      <label>Message / Timeline / Special Requirements</label>
+      <textarea id="cf-msg" placeholder="Tell us briefly about your expansion plans and what you need — we'll respond within 24 hours."></textarea>
+    </div>
+    <button class="submit-btn" id="mainSubmitBtn" onclick="handleMainSubmit()">Send Enquiry →</button>
+    <p class="form-note">We respond to all serious enquiries within 24 hours. Your data is kept strictly private.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-logo"><span>●</span> Deoria Land Lease</div>
+  <div class="foot-links">
+    <a href="#gallery">Gallery</a>
+    <a href="#location">Location</a>
+    <a href="#parcels">Parcels</a>
+    <a href="#terms">Terms</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="foot-copy">© 2025 Shailendra Mall · Gopawapar, Deoria, Uttar Pradesh</div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lightbox" onclick="closeLb(event)">
+  <span class="lb-close" onclick="closeLb()">✕</span>
+  <img class="lb-img" id="lbImg" src="" alt="Land Photo"/>
+  <div class="lb-nav">
+    <button class="lb-btn" onclick="lbPrev(event)">← Prev</button>
+    <button class="lb-btn" onclick="lbNext(event)">Next →</button>
+  </div>
+</div>
+
+<!-- ENQUIRE MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModalOutside(event)">
+  <div class="modal">
+    <div class="modal-top">
+      <div>
+        <h3>Enquire About The Land</h3>
+        <p>We'll get back to you within 24 hours</p>
+      </div>
+      <button class="modal-close-btn" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="mfg-row">
+        <div class="mfg">
+          <label>Your Name *</label>
+          <input type="text" id="m-name" placeholder="Full name"/>
+        </div>
+        <div class="mfg">
+          <label>Company *</label>
+          <input type="text" id="m-company" placeholder="Company name"/>
+        </div>
+      </div>
+      <div class="mfg-row">
+        <div class="mfg">
+          <label>Phone *</label>
+          <input type="tel" id="m-phone" placeholder="+91 XXXXX XXXXX"/>
+        </div>
+        <div class="mfg">
+          <label>Email</label>
+          <input type="email" id="m-email" placeholder="you@company.com"/>
+        </div>
+      </div>
+      <div class="mfg">
+        <label>Requirement</label>
+        <select id="m-type">
+          <option value="">Select type</option>
+          <option>Warehousing / Godown</option>
+          <option>Fulfillment / Distribution Hub</option>
+          <option>Cold Storage</option>
+          <option>Chemical / Seed / Fertilizer Storage</option>
+          <option>FMCG / Bulk Storage</option>
+          <option>E-Commerce Fulfilment</option>
+          <option>Site Visit Request</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="mfg">
+        <label>Message (optional)</label>
+        <textarea id="m-msg" placeholder="Brief description of your requirement..."></textarea>
+      </div>
+      <button class="modal-submit" id="modalSubmitBtn" onclick="handleModalSubmit()">Submit Enquiry</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── NAV SCROLL ──
+window.addEventListener('scroll',()=>{
+  document.getElementById('nav').classList.toggle('scrolled',window.scrollY>40);
+});
+
+// ── REVEAL ON SCROLL ──
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
+},{threshold:0.08});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+// ── LIGHTBOX ──
+const galleryImgs=[
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0201_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0204_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0203_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0202_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0200_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0199_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0198_orig.jpeg',
+  'https://shailendramall.weebly.com/uploads/1/5/3/5/153572494/img-0197_orig.jpeg',
+];
+let lbIdx=0;
+function openLb(i){lbIdx=i;document.getElementById('lbImg').src=galleryImgs[i];document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden';}
+function closeLb(e){if(!e||e.target===document.getElementById('lightbox')||e.target.classList.contains('lb-close')){document.getElementById('lightbox').classList.remove('open');document.body.style.overflow='';}}
+function lbNext(e){e.stopPropagation();lbIdx=(lbIdx+1)%galleryImgs.length;document.getElementById('lbImg').src=galleryImgs[lbIdx];}
+function lbPrev(e){e.stopPropagation();lbIdx=(lbIdx-1+galleryImgs.length)%galleryImgs.length;document.getElementById('lbImg').src=galleryImgs[lbIdx];}
+document.addEventListener('keydown',e=>{
+  if(!document.getElementById('lightbox').classList.contains('open'))return;
+  if(e.key==='ArrowRight')lbNext(e);
+  if(e.key==='ArrowLeft')lbPrev(e);
+  if(e.key==='Escape')closeLb();
+});
+
+// ── MODAL ──
+function openModal(){document.getElementById('modalOverlay').classList.add('open');document.body.style.overflow='hidden';}
+function closeModal(){document.getElementById('modalOverlay').classList.remove('open');document.body.style.overflow='';}
+function closeModalOutside(e){if(e.target===document.getElementById('modalOverlay'))closeModal();}
+
+// ── FORM SUBMIT HANDLERS ──
+function handleModalSubmit(){
+  const name=document.getElementById('m-name').value.trim();
+  const company=document.getElementById('m-company').value.trim();
+  const phone=document.getElementById('m-phone').value.trim();
+  if(!name||!company||!phone){alert('Please fill in your name, company, and phone number.');return;}
+  const btn=document.getElementById('modalSubmitBtn');
+  btn.textContent='✓ Enquiry Submitted!';
+  btn.classList.add('success');
+  btn.style.pointerEvents='none';
+  // Build mailto link
+  const subject=encodeURIComponent('Land Lease Enquiry — '+company);
+  const body=encodeURIComponent(
+    'Name: '+name+'\nCompany: '+company+'\nPhone: '+phone+
+    '\nEmail: '+document.getElementById('m-email').value+
+    '\nRequirement: '+document.getElementById('m-type').value+
+    '\nMessage: '+document.getElementById('m-msg').value
+  );
+  setTimeout(()=>{window.location.href='mailto:shailendramall@example.com?subject='+subject+'&body='+body;},600);
+  setTimeout(()=>{closeModal();btn.textContent='Submit Enquiry';btn.classList.remove('success');btn.style.pointerEvents='';},2500);
+}
+
+function handleMainSubmit(){
+  const name=document.getElementById('cf-name').value.trim();
+  const company=document.getElementById('cf-company').value.trim();
+  const phone=document.getElementById('cf-phone').value.trim();
+  if(!name||!company||!phone){alert('Please fill in your name, company, and phone number.');return;}
+  const btn=document.getElementById('mainSubmitBtn');
+  btn.textContent='✓ Enquiry Sent!';
+  btn.classList.add('success');
+  btn.style.pointerEvents='none';
+  const subject=encodeURIComponent('Land Lease Enquiry — '+company);
+  const body=encodeURIComponent(
+    'Name: '+name+'\nCompany: '+company+'\nPhone: '+phone+
+    '\nEmail: '+document.getElementById('cf-email').value+
+    '\nType: '+document.getElementById('cf-type').value+
+    '\nSize Needed: '+document.getElementById('cf-size').value+
+    '\nMessage: '+document.getElementById('cf-msg').value
+  );
+  setTimeout(()=>{window.location.href='mailto:shailendramall@example.com?subject='+subject+'&body='+body;},600);
+  setTimeout(()=>{btn.textContent='Send Enquiry →';btn.classList.remove('success');btn.style.pointerEvents='';},3000);
+}
+</script>
+</body>
+</html>
